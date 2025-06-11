@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "mcp",
+                "run",
+                "C:\\Users\\91891\\Desktop\\Karunakar\\cf-mcp\\kb-mcp-cf\\interactive-chat-bot\\app.py"
+            ]
+        }
+    }
+}

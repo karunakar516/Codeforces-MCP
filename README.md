@@ -286,7 +286,7 @@ Assistant: I have access to the following **Codeforces API tools** to retrieve d
 15. **`get_recent_actions`**
     *View recent platform-wide actions (e.g., new blogs, system updates).*
     Args: `max_count`
-
+```
 ---
 
 You can ask for Codeforces data in natural language, and the bot will use the appropriate tool!
@@ -345,7 +345,7 @@ python client.py
 
 ## Tips
 
-- Ensure the MCP server is running before starting the chat bot.
+- You can directly run client.py for running chatbot, only thing you need to do is to change the path of interactive-chat-bot/app.py as per your system path!
 - You can modify or extend the tools in `app.py` in either folder to add more capabilities.
 - For development, you can run both the server and the chat bot locally in separate terminals.
 
